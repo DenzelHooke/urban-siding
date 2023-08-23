@@ -1,0 +1,28 @@
+@import 'utilities/variables';
+
+#intro {
+    background-image: url('/assets/suburb_1.jpg');
+    padding-top: 200px;
+    min-height: 50vh;
+    background-position: center;
+}   
+
+
+.wrapper {
+    color: white;
+}
+
+.header {
+    font-size: 45px;
+    max-width: 650px;
+}
+
+.paragraph {
+}
+
+.cta__btn {
+    margin-top: 10px;
+    width: 400px;
+    background-color: $color-brand-red;
+    color: white;
+}
