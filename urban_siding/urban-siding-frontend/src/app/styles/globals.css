@@ -35,5 +35,45 @@
 }
 
 .heading {
-  font-weight: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+}
+
+.section__header {
+  font-size: 40px;
+}
+
+.heading__container {
+  margin-bottom: 100px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.section {
+  padding-bottom: 200px;
+}
+
+.main-carousel .flickity-viewport {
+  height: 600px !important;
+}
+.main-carousel .carousel-cell {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  height: 100%;
+}
+.main-carousel .carousel-cell .carousel__cell__inner {
+  transition: all ease-in-out 150ms;
+  position: relative;
+  width: 1150px;
+  height: 500px;
+}
+.main-carousel .carousel-cell .carousel__cell__inner img {
+  height: 100%;
+}
+.main-carousel .is-selected .carousel__cell__inner {
+  height: 600px;
 }/*# sourceMappingURL=globals.css.map */
