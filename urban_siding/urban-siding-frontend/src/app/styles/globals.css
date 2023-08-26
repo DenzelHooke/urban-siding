@@ -41,7 +41,8 @@
 }
 
 .section__header {
-  font-size: 40px;
+  font-size: 35px;
+  padding-bottom: 5px;
 }
 
 .heading__container {
@@ -56,10 +57,28 @@
   padding-bottom: 200px;
 }
 
+.smallText {
+  font-size: 14px;
+}
+
+.upperCaseText {
+  text-transform: uppercase;
+}
+
+.main-carousel .flickity-button:disabled {
+  display: none;
+}
+.main-carousel .flickity-button {
+  background-color: white;
+  color: rgb(27, 27, 27);
+  height: 65px;
+  border-radius: 5px;
+}
 .main-carousel .flickity-viewport {
   height: 600px !important;
 }
 .main-carousel .carousel-cell {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 0 20px;
@@ -76,4 +95,22 @@
 }
 .main-carousel .is-selected .carousel__cell__inner {
   height: 600px;
+}
+
+.carousell-cell__bio {
+  position: absolute;
+  z-index: 50;
+  bottom: 50px;
+  left: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white !important;
+  font-weight: 400;
+  font-family: Barlow;
+  background: linear-gradient(114deg, rgba(15, 15, 15, 0.335) 0%, rgba(15, 15, 15, 0.335) 100%);
+  -webkit-backdrop-filter: blur(6.5px);
+          backdrop-filter: blur(6.5px);
+}
+.carousell-cell__bio p {
+  margin: 2px 0;
 }/*# sourceMappingURL=globals.css.map */
